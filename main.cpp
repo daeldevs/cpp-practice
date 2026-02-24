@@ -1,8 +1,10 @@
 #include <iostream>
 
-int main() {
-    int h = 10 ;
-    std::cout << h + 10 << std::endl;
-    std::cout << 5 + 7 << std::endl;
+int main()
+{
+    std::cout << "enter and integer :";
+    int num{};
+    std::cin >> num;
+    std::cout << num ;
     return 0;
 }
