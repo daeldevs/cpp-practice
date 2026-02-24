@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello C++!\n";
-    std::cout << 5 << std::endl;
+    int h = 10 ;
+    std::cout << h + 10 << std::endl;
     std::cout << 5 + 7 << std::endl;
     return 0;
 }
