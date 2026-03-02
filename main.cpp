@@ -1,24 +1,16 @@
 #include <iostream>
 
-int getValueFromUser()
+int foo()
 {
- 	std::cout << "Enter an integer: ";
-	int input{};
-	std::cin >> input;
-
+#define MY_NAME "Alex"
+	std::cout << 2+7 << endl;
 	return 0;
-}
-
-void printDouble(int value) // This function now has an integer parameter
-{
-	std::cout << value << " doubled is: " << value * 2 << '\n';
 }
 
 int main()
 {
-	int num { getValueFromUser() };
-
-	printDouble(num);
+	foo();
+	std::cout << "My name is: " << MY_NAME << '\n';
 
 	return 0;
 }
